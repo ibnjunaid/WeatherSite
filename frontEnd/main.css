@@ -1,0 +1,43 @@
+
+html{
+    background:linear-gradient(55deg,green 30%,dodgerblue);
+}
+
+.weather-container,.control-container{
+    position: absolute;;
+    height:40%;
+    width:80%;
+    display:block;
+    border-radius:10px;
+    margin:5%;
+}
+.weather-container{
+    background:rgba(30, 66, 112, 0.472);
+}
+.control-container{
+    top:50%;
+    background:rgba(0, 238, 255, 0.308);
+}
+input[type="text"]{
+    color:rgb(153, 45, 45);
+    width:50%;
+    height:40px;
+    margin-left:25%;
+    margin-top:10%;
+    font-size:25px;
+    border-radius:5px;
+    padding-left:10px;
+    margin-bottom: 1%;
+}
+.search{
+    height:30px;
+}
+button{
+    display:block;
+    margin:auto;
+    border-radius:3px;
+    width:50px;
+}
+button:hover{
+    outline:none;
+}
